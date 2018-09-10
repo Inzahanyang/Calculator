@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2FAB202142745F003FAD38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F2FAB1F2142745F003FAD38 /* Default-568h@2x.png */; };
 		E82784DC214263B90075CEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82784DB214263B90075CEED /* AppDelegate.swift */; };
 		E82784DE214263B90075CEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82784DD214263B90075CEED /* ViewController.swift */; };
 		E82784E1214263B90075CEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82784DF214263B90075CEED /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F2FAB1F2142745F003FAD38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E82784D8214263B90075CEED /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82784DB214263B90075CEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E82784DD214263B90075CEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +37,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F58402D21426D8800407256 /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				E82784DB214263B90075CEED /* AppDelegate.swift */,
+				E82784E2214263BB0075CEED /* Assets.xcassets */,
+				E82784E4214263BB0075CEED /* LaunchScreen.storyboard */,
+				E82784E7214263BB0075CEED /* Info.plist */,
+			);
+			path = "support files";
+			sourceTree = "<group>";
+		};
 		E82784CF214263B90075CEED = {
 			isa = PBXGroup;
 			children = (
+				2F2FAB1F2142745F003FAD38 /* Default-568h@2x.png */,
 				E82784DA214263B90075CEED /* Calculator */,
 				E82784D9214263B90075CEED /* Products */,
 			);
@@ -54,12 +68,9 @@
 		E82784DA214263B90075CEED /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				E82784DB214263B90075CEED /* AppDelegate.swift */,
+				2F58402D21426D8800407256 /* support files */,
 				E82784DD214263B90075CEED /* ViewController.swift */,
 				E82784DF214263B90075CEED /* Main.storyboard */,
-				E82784E2214263BB0075CEED /* Assets.xcassets */,
-				E82784E4214263BB0075CEED /* LaunchScreen.storyboard */,
-				E82784E7214263BB0075CEED /* Info.plist */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E82784E6214263BB0075CEED /* LaunchScreen.storyboard in Resources */,
+				2F2FAB202142745F003FAD38 /* Default-568h@2x.png in Resources */,
 				E82784E3214263BB0075CEED /* Assets.xcassets in Resources */,
 				E82784E1214263B90075CEED /* Main.storyboard in Resources */,
 			);
@@ -282,7 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "Calculator/support files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "Calculator/support files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
